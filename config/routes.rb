@@ -1,5 +1,6 @@
 Fridge::Application.routes.draw do
   get "home_/home"
+  get "/home_/html_form_action.asp"
   resources :ing_rec_joins
   resources :recipes
 
