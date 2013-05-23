@@ -1,0 +1,87 @@
+p{font-family: verdana, Georgia, arial, helvetica, sans-serif;
+
+font-size: 1em;  /* default size */
+
+color: #FFFFFF;  /* text color */
+
+background-attachment: scroll;
+
+}
+
+.heading {
+
+      /*background:black;*/
+      color: yellow;
+      padding: 1%;
+      margin: 1% 13% 1% 13%;
+      padding: 2%;
+      text-align:center;
+}
+.content {
+
+    background: white;
+    color:black;
+    margin: 1% 13% 1% 13%;
+    padding: 2%;
+    overflow:auto;
+}
+
+.border {
+          margin: 5% 2%;
+          border: 2px solid yellow;
+          padding: 10% 2%;
+          overflow:auto;
+          /*background: http://i1153.photobucket.com/albums/p515/gabeo210/6c16e4af.jpg  ;*/
+  }
+
+.floatleft {
+        width: 40%;
+        padding:2%;
+        float:left;
+}
+
+.border {
+          margin: 5% 2%;
+          border: 2px solid yellow;
+          padding: 10% 2%;
+          overflow:auto;
+          /*background: http://i1153.photobucket.com/albums/p515/gabeo210/6c16e4af.jpg  ;*/
+  }
+
+.floatleft {
+        width: 40%;
+        padding:2%;
+        float:left;
+      }
+      
+.floatright {
+        width: 40%;
+        padding:2%;
+        float:right;
+      }
+.clear {
+       clear:both;
+       }
+
+.footer{
+         background: #E6E6E6;
+        font-size:.8em;
+        margin:1%;
+       /* border:.75px solid white;*/
+        padding:1%;
+
+}
+/* now change anchor tag colors */
+a:link {
+         color: yellow;
+    }
+a:visited {
+            color:orange;
+          }
+a:hover { background:white;
+          color:#333000;
+        }
+
+
+
+
