@@ -1,11 +1,14 @@
 Fridge::Application.routes.draw do
   get "home_/home"
-  get "/home_/html_form_action.asp"
+  
+  
+  
   resources :ing_rec_joins
   resources :recipes
 
   resources :ingredients
   resources :home
+  resources :html_form_action
 
   
   # The priority is based upon order of creation:

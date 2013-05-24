@@ -13,3 +13,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+//= require image_slide.js
+//= require jquery.js
+//= require modernizr-1.5.min.js

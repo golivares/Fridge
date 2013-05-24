@@ -1,17 +1,24 @@
-p{font-family: verdana, Georgia, arial, helvetica, sans-serif;
+body
 
-font-size: 1em;  /* default size */
+{
+margin: 0 5%;	
+	
+font-family: Century Gothic, sans-serif;}
 
-color: #FFFFFF;  /* text color */
+font-size: 8em;  /* default size */
 
-background-attachment: scroll;
+color: red;  /* text color */
+
+background-color: black;
+
+
 
 }
 
 .heading {
 
-      /*background:black;*/
-      color: yellow;
+      background:black;
+      color: black;
       padding: 1%;
       margin: 1% 13% 1% 13%;
       padding: 2%;
@@ -19,20 +26,12 @@ background-attachment: scroll;
 }
 .content {
 
-    background: white;
-    color:black;
+    background: black;
+    color:white;
     margin: 1% 13% 1% 13%;
     padding: 2%;
     overflow:auto;
 }
-
-.border {
-          margin: 5% 2%;
-          border: 2px solid yellow;
-          padding: 10% 2%;
-          overflow:auto;
-          /*background: http://i1153.photobucket.com/albums/p515/gabeo210/6c16e4af.jpg  ;*/
-  }
 
 .floatleft {
         width: 40%;
@@ -42,10 +41,10 @@ background-attachment: scroll;
 
 .border {
           margin: 5% 2%;
-          border: 2px solid yellow;
+          border: 10px solid blue;
           padding: 10% 2%;
           overflow:auto;
-          /*background: http://i1153.photobucket.com/albums/p515/gabeo210/6c16e4af.jpg  ;*/
+          background:black 
   }
 
 .floatleft {
@@ -54,11 +53,7 @@ background-attachment: scroll;
         float:left;
       }
       
-.floatright {
-        width: 40%;
-        padding:2%;
-        float:right;
-      }
+
 .clear {
        clear:both;
        }
