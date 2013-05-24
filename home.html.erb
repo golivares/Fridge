@@ -1,0 +1,138 @@
+<% provide(:title,'Fridge Program') %>
+<%= @ingredients %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+
+
+<link rel="stylesheet" href="home.css" type="text/css" />
+ <%= stylesheet_link_tag "home" %>
+</head>
+<body>
+<body bgcolor = "black">
+<body background="/assets/fridge-1.jpg">
+
+<div class = 'border'>
+<div class='heading'>
+	
+<center>
+	<h2 style="color: white"> Welcome to the Fridge Program</h2>
+</center>
+
+
+</div>
+</div>
+<div class = 'border'>
+<div class='content'>
+<center>
+ <h4> Here you will input what ingredients you have in your fridge.</h4> 
+  The program will give you a recipe you can make!<br />
+  
+   <form name="input" method="get">
+  	<br/>
+Ingredients: <input type="text" name="ingredients">
+ <br/>
+ (Please seperate each ingredient with a comma.)
+ <br/>
+<input type="submit" value="Submit" >
+
+</form>
+<%= form_tag("/search", :method => "get") do %>
+  <%= label_tag(:q, "Search for:") %>
+  <%= text_field_tag(:q) %>
+  <%= submit_tag("Search") %>
+<% end %>
+
+<%= submit_tag "Text" %>
+
+<br/>
+ <img src="/assets/electrolux-enl60710x-fridge-lr.jpg" width="300" height="650">
+</center>
+</div>
+</div>
+</body>
+</html>
+
+
+
+<!--
+<DOCTYPE html> 
+<html>
+
+<head>
+	
+
+ 
+  <title>Fridge Program</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <!--<link rel="stylesheet" type="text/css" href="/fridge/app/assets/stylesheets/style.cs" />/ -
+  <%= stylesheet_link_tag "style" %>
+  <!-- modernizr enables HTML5 elements and feature detects 
+  <script type="text/javascript" src="javascripts/jsmodernizr-1.5.min.js"></script>
+<%= javascript_include_tag "modernizr-1.5.min.js" %>
+
+</head>
+
+<body>
+  <div id="main">
+    <header>
+	  <div id="banner">
+	    <div id="welcome">
+	      <h3>Fridge<span> Program</span></h3>
+	    </div><!--close welcome
+	    <div id="welcome_slogan">
+	      <h3>Find your recipe</h3>
+	    </div><!--close welcome_slogan	
+	  </div><!--close banner
+    </header>
+
+	
+    
+	<div id="site_content">	
+
+      <div class="slideshow">
+	    <ul class="slideshow">
+          <li class="show"><<img width="900" height="250" src="images/home_1.jpg" alt="Find your recipies!" />
+          	<%= image_tag "electrolux-enl60710x-fridge-lr.jpg", :size => "50x20" %></li>
+          <li><img width="900" height="250" src="images/home_2.jpg" alt="Find your recipies!" />
+          	<%= image_tag "electrolux-enl60710x-fridge-lr.jpg", :size => "50x20" %>
+          </li>
+        </ul> 
+	  </div>	
+	
+	  <div id="content">
+        <div class="content_item">
+		  <h1>Welcome To the Fridge Program</h1> 
+          <p>ENTER FRIDGE STUFF HERE</p>   		
+		  
+		  <!--<div class="content_imagetext">
+		    <div class="content_image">
+		      <img src="images/image1.jpg" alt="image1"/>
+	        </div>
+		    <p></p>
+		  </div>close content_imagetext
+		  
+		
+	
+		</div><!--close content_item
+      </div><!--close content  
+	</div><!--close site_content 
+  </div><!--close main
+  
+  
+
+  <!-- javascript at the bottom for fast page loading 
+  <script type="text/javascript" src="javascripts/jquery.js"></script>
+  <script type="text/javascript" src="javascripts/image_slide.js"></script>
+  <%= javascript_include_tag "image_slide.js" %>
+  <%= javascript_include_tag "jquery.js" %>
+  
+  
+</body>
+
+</html> 
+
